@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-div{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid ;
+  margin: 150px auto;
+  max-width: 400px;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form label{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+form input{
+  padding: 10px 6px;
+  width: 100%;
+}
+
+.register-btn{
+  padding: 8px 0px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 150px;
+  margin: 10px auto;
+}
+
+.success-msg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+  color: green;
+  border: 2px solid;
+  padding: 40px 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.error{
+  color: red;
+  margin: 2px 0px;
+}
