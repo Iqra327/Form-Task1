@@ -81,7 +81,7 @@ const Form = () => {
                 {...register('confirmPass',{
                   required: 'Please Confirm Your password',
                   validate: (value) => {
-                    if(watch('password') != value){
+                    if(watch('password') !== value){
                       return "Password and Confirm Password do not match"
                     }
                   }
@@ -101,4 +101,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default Form;
